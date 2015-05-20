@@ -38,8 +38,8 @@ int main(void) {
 	db_init (&g_mysql);
 
 
-	db_disk_info *disk_info;
 	//the *__new method creates empty structure
+	db_disk_info *disk_info;
 	disk_info = db_disk_info__new();
 
 
